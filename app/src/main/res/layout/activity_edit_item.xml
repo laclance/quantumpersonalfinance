@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorSecondary"
+    tools:context="com.quantumsoftwaresolutions.quantumfinance.activity.EditSurfSpotActivity"
+    android:weightSum="1">
+
+    <include
+        android:id="@+id/app_bar_notabs"
+        layout="@layout/app_bar_notabs" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/type"
+        android:id="@+id/typeTextView"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <Spinner
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/background_border"
+        android:entries="@array/income_type_array" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description"
+            android:freezesText="true"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/dateTextView"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pickDateButton"
+            android:contentDescription="date"
+            android:background="@drawable/ic_action_calendar"
+            android:onClick="showDatePickerDialog"
+            android:padding="16dp"
+            android:minHeight="16dp"
+            android:minWidth="16dp"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/frequency"
+        android:id="@+id/frequencyTextView"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/background_border"
+        android:id="@+id/frequency"
+        android:entries="@array/frequency_array" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/amount"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/amount"
+            android:freezesText="true"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addItem"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:onClick="onButtonClick"/>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Quantum Finance</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="goals">Goals</string>
+    <string name="expenses">Expenses</string>
+    <string name="income">Income</string>
+    <string name="home">Home</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="logout">Log out</string>
+    <string name="createNewUser">Creating New User ...</string>
+    <string name="loggingIn">Logging in ...</string>
+    <string name="loading">Please wait, loading ...</string>
+    <string name="registerNew">Register New</string>
+    <string name="rememberMe">Remember me</string>
+    <string name="action_add">Add</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_edit_item">EditItemActivity</string>
+    <string name="addItem">Add Item</string>
+    <string name="editItem">Edit Item</string>
+    <string name="addIncome">Add Income</string>
+    <string name="addExpense">Add Expense</string>
+    <string name="editIncome">Edit Income</string>
+    <string name="editExpense">Edit Expense</string>
+
+    <string name="instructions"> No items, press the + symbol
+    in the top right of the screen to add an item.\n
+    \nSelect an item by clicking on it.
+    \nLong press on an item to edit it.
+    \nFling an item to delete it.</string>
+
+    <string-array name="income_type_array">
+        <item>Salary</item>
+        <item>Invesment</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="expense_type_array">
+        <item>Beauty</item>
+        <item>Charity</item>
+        <item>Entertainment</item>
+        <item>Food</item>
+        <item>Health</item>
+        <item>Household</item>
+        <item>Insurance</item>
+        <item>Rent/Bond</item>
+        <item>Transportation</item>
+        <item>Vehicle</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="frequency_array">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string name="type">Type</string>
+    <string name="description">Description</string>
+    <string name="amount">Amount</string>
+    <string name="frequency">Frequency</string>
+</resources>

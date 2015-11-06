@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_home" type="id">nav_home</item>
+    <item name="app_bar" type="id">app_bar</item>
+    <item name="nav_goals" type="id">nav_goals</item>
+    <item name="nav_expenses" type="id">nav_expenses</item>
+    <item name="nav_income" type="id">nav_income</item>
+    
+    <item name="action_search" type="id">action_search</item>
+    <item name="action_settings" type="id">action_settings</item>
+    <item name="title" type="id">title</item>
+    <item name="nav_header_container" type="id">nav_header_container</item>
+    <item name="drawerList" type="id">drawerList</item>
+    <item name="drawer_layout" type="id">drawer_layout</item>
+    <item name="container_app_bar" type="id">container_app_bar</item>
+    <item name="container_body" type="id">container_body</item>
+    <item name="fragment_navigation_drawer" type="id">fragment_navigation_drawer</item>
+    <item name="label2" type="id">label2</item>
+    <item name="label" type="id">label</item>
+    <item name="profile_image" type="id">profile_image</item>
+    <item name="email" type="id">email</item>
+    <item name="username" type="id">username</item>
+</resources>
